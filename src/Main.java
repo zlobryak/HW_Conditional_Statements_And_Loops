@@ -15,7 +15,7 @@ public class Main {
             if (LeapYearCalc.leapYearCalc(year) == numberOfDays){
                 successCount++;
             } else {
-                System.out.println("Неправильно! В этом году" + LeapYearCalc.leapYearCalc(year));
+                System.out.println("Неправильно! В этом году " + LeapYearCalc.leapYearCalc(year) + "дней");
                 System.out.println(successCount);
                 break;
             }
